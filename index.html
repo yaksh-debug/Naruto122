@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Animecast</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AnimeCast</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap">
+
+</head>
+
+<body>
+
+  <h1>AnimeCast</h1>
+
+  <input type="text" id="searchBar" placeholder="Search anime...">
+
+  <button id="adminLoginBtn">Admin Login</button>
+
+  <form id="uploadForm" style="display:none;">
+
+    <input type="text" id="animeTitle" placeholder="Anime Title">
+
+    <input type="text" id="animeGenre" placeholder="Genre">
+
+    <textarea id="animeDescription" placeholder="Description"></textarea>
+
+    <input type="file" id="animeThumbnail" accept="image/*">
+
+    <input type="file" id="animeVideo" accept="video/*">
+
+    <button type="button" id="uploadBtn">Upload Anime</button>
+
+  </form>
+
+  <div id="animeLibrary"></div>
+
+  <div id="playerView" style="display:none;">
+
+    <div id="backArrow">← Back</div>
+
+    <video controls id="videoPlayer"></video>
+
+    <div id="episodeSelector"></div>
+
+  </div>
+
+  <!-- JS will be in separate panel -->
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
